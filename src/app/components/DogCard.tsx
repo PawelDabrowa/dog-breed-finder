@@ -13,7 +13,7 @@ export const DogCard: React.FC<{ dog: Dog }> = ({ dog }) => (
       </div>
     )}
     <h3 className="mt-2 text-lg font-semibold">{dog.name}</h3>
-    <p className="mt-2 text-sm text-gray-400">{dog.temperament}</p>
-    <p className="text-gray-300">{dog.breed_group || 'Unknown Breed Group'}</p>
+    <p className="mt-2 text-sm text-gray-400"><strong>Temperament:</strong> {dog.temperament}</p>
+    <p className="text-gray-300"><strong>Breed:</strong> {dog.breed_group || 'Unknown Breed Group'}</p>
   </div>
 );
