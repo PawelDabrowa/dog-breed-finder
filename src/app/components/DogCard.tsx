@@ -1,5 +1,3 @@
-// src/app/components/DogCard.tsx
-
 import React from 'react';
 import { Dog } from '../types/dog';
 
